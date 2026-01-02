@@ -1,0 +1,128 @@
+{
+  "fenerbahce": {
+    "transition_matrix": {
+      "Champion": {
+        "Champion": 0.14285714285714285,
+        "Runner-up": 0.7142857142857143,
+        "Mid-table": 0.14285714285714285
+      },
+      "Runner-up": {
+        "Champion": 0.26666666666666666,
+        "Runner-up": 0.4666666666666667,
+        "Mid-table": 0.26666666666666666
+      },
+      "Mid-table": {
+        "Champion": 0.14285714285714285,
+        "Runner-up": 0.5714285714285714,
+        "Mid-table": 0.2857142857142857
+      }
+    },
+    "historical_results": {
+      "2004-05": "Champion",
+      "2005-06": "Runner-up",
+      "2006-07": "Champion",
+      "2007-08": "Runner-up",
+      "2008-09": "Mid-table",
+      "2009-10": "Runner-up",
+      "2010-11": "Champion",
+      "2011-12": "Runner-up",
+      "2012-13": "Runner-up",
+      "2013-14": "Champion",
+      "2014-15": "Runner-up",
+      "2015-16": "Runner-up",
+      "2016-17": "Mid-table",
+      "2017-18": "Runner-up",
+      "2018-19": "Runner-up",
+      "2019-20": "Mid-table",
+      "2020-21": "Mid-table",
+      "2021-22": "Runner-up",
+      "2022-23": "Runner-up",
+      "2023-24": "Runner-up",
+      "2024-25": "Runner-up"
+    },
+    "current_state": "Runner-up",
+    "championships_20yr": 4,
+    "data_period": "2004-05 to 2024-25 (21 seasons)"
+  },
+  "bist": {
+    "transition_matrix": {
+      "Bull": {
+        "Bull": 0.36363636363636365,
+        "Bear": 0.18181818181818182,
+        "Sideways": 0.45454545454545453
+      },
+      "Bear": {
+        "Bull": 0.3333333333333333,
+        "Bear": 0.3333333333333333,
+        "Sideways": 0.3333333333333333
+      },
+      "Sideways": {
+        "Bull": 0.4444444444444444,
+        "Bear": 0.4444444444444444,
+        "Sideways": 0.1111111111111111
+      }
+    },
+    "historical_states": {
+      "2004-05": "Bull",
+      "2005-06": "Sideways",
+      "2006-07": "Bull",
+      "2007-08": "Sideways",
+      "2008-09": "Bear",
+      "2009-10": "Bull",
+      "2010-11": "Bull",
+      "2011-12": "Bear",
+      "2012-13": "Sideways",
+      "2013-14": "Bull",
+      "2014-15": "Sideways",
+      "2015-16": "Bear",
+      "2016-17": "Bear",
+      "2017-18": "Sideways",
+      "2018-19": "Bear",
+      "2019-20": "Bear",
+      "2020-21": "Bull",
+      "2021-22": "Bull",
+      "2022-23": "Sideways",
+      "2023-24": "Bull",
+      "2024-25": "Bull"
+    },
+    "current_state": "Bull",
+    "data_period": "2004-05 to 2024-25 (21 years)"
+  },
+  "combined": {
+    "emission_matrix": {
+      "Bull": {
+        "Champion": 0.4166666666666667,
+        "Runner-up": 0.4166666666666667,
+        "Mid-table": 0.16666666666666666
+      },
+      "Bear": {
+        "Champion": 0.1111111111111111,
+        "Runner-up": 0.4444444444444444,
+        "Mid-table": 0.4444444444444444
+      },
+      "Sideways": {
+        "Champion": 0.1111111111111111,
+        "Runner-up": 0.7777777777777778,
+        "Mid-table": 0.1111111111111111
+      }
+    },
+    "correlation_counts": {
+      "Bull": {
+        "Champion": 4,
+        "Runner-up": 4,
+        "Mid-table": 1
+      },
+      "Bear": {
+        "Champion": 0,
+        "Runner-up": 3,
+        "Mid-table": 3
+      },
+      "Sideways": {
+        "Champion": 0,
+        "Runner-up": 6,
+        "Mid-table": 0
+      }
+    },
+    "data_period": "2004-05 to 2024-25 (21 seasons)"
+  }
+}
